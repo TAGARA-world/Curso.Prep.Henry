@@ -1,11 +1,21 @@
 h1{
     color:red;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
 }
 img{
     width: 400px;
 
 }
 #thirDiv{
+    position: absolute;
+    left: 30%;
+    top: 40%;
     height: 600px;
     width: 500px;
     background-color: blue;
@@ -13,6 +23,22 @@ img{
     border: 2px dashed violet;
 }
 #spanId{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    font-size: 18px;
+    margin: 50px;
+}
+body{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/47/New_york_times_square-terabass.jpg");
+    background-size: cover;
+}
+a{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
     font-size: 18px;
     margin: 50px;
 }
