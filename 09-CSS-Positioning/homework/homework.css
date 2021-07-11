@@ -60,11 +60,48 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 
 /* Ejercicio 6. */
-#ejercicioSiete{
-    display: flex;
-    justify-content: end;
-}
+
+
 #elementoUno{
     display: flex;
-    align-items: flex-end;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: rgb(120, 120, 165);
+    border: 10px inset orangered;
+}
+#elementoDos{
+    display: flex;
+    justify-content: end;
+    background-color: rgb(160, 79, 177);
+    margin-bottom: 40%;
+    height: 50px;
+    width: 105px;
+    border: 20px groove  rgb(247, 63, 7);
+    
+
+}
+#elementoTres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: rgb(79, 177, 144);
+    margin-bottom: 20%;
+    height: 50px;
+    width: 175px;
+    border: 10px double blue;
+
+}
+#elementoCuatro{
+    background-color: #ccc;
+	position: absolute;
+	height: 250px;
+	width: 200px;
+	left: 50%;
+	top: 50%;
+	margin-top: -100px;
+	margin-left: -150px;
+    writing-mode: vertical-rl;
+    border: 20px dashed violet;
 }
